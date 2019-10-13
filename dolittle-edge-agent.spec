@@ -1,11 +1,11 @@
 Name     : dolittle-edge-agent
-Version  : 2.0.1
+Version  : 2.1.0
 Release  : 1
-URL      : https://github.com/dolittle-edge/Agent/archive/2.0.1.tar.gz
+URL      : https://github.com/dolittle-edge/Agent/archive/2.1.0.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : MIT
-Source0  : https://github.com/dolittle-edge/Agent/archive/2.0.1.tar.gz
+Source0  : https://github.com/dolittle-edge/Agent/archive/2.1.0.tar.gz
 BuildRequires : buildreq-golang
 
 %description
@@ -15,7 +15,7 @@ provide information / telemetry back to the cloud environment and also provide f
 for the cloud to call upon to perform actions on the edge.
 
 %prep
-%setup -q -n Agent-2.0.1
+%setup -q -n Agent-2.1.0
 
 %build
 pushd Source/
